@@ -23,3 +23,6 @@ your Scala project up and running quicker.  Out of the box it provides:
 * CodeStats [https://github.com/orrsella/sbt-stats](https://github.com/orrsella/sbt-stats)
 * Integration Test support: run any integration tests placed below <code>${PROJECT_ROOT}/src/it/</code> using the SBT <code>it:test</code> goal
 
+### Other:
+* Travis CI support [http://travis-ci.org/](http://travis-ci.org/) - simply connect your
+  github repo to Travis CI and after your next push Travis CI will automatically build.

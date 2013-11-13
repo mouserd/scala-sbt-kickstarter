@@ -1,10 +1,9 @@
-resolvers += Classpaths.typesafeResolver
-
-resolvers += Classpaths.sbtPluginReleases
-
-resolvers += "scct-github-repository" at "http://mtkopone.github.com/scct/maven-repo"
-
-resolvers += "sonatype-releases" at "https://oss.sonatype.org/content/repositories/releases/"
+resolvers ++= Seq(
+  Classpaths.typesafeResolver,
+  Classpaths.sbtPluginReleases,
+  "scct-github-repository" at "http://mtkopone.github.com/scct/maven-repo",
+  "sonatype-releases" at "https://oss.sonatype.org/content/repositories/releases/"
+)
 
 // IntelliJ project generation
 addSbtPlugin("com.github.mpeltonen" % "sbt-idea" % "1.5.2")

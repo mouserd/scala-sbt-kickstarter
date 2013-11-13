@@ -21,6 +21,8 @@ your Scala project up and running quicker.  Out of the box it provides:
 * ScalaStyle
   [https://github.com/scalastyle/scalastyle-sbt-plugin](https://github.com/scalastyle/scalastyle-sbt-plugin)
 * CodeStats [https://github.com/orrsella/sbt-stats](https://github.com/orrsella/sbt-stats)
+* Growl Notifications: Including custom pass/fail/error icons
+    [https://github.com/softprops/sbt-growl-plugin](https://github.com/softprops/sbt-growl-plugin)
 * Integration Test support: run any integration tests placed below <code>${PROJECT_ROOT}/src/it/</code> using the SBT <code>it:test</code> goal
 
 ### Other:

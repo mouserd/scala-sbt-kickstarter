@@ -1,3 +1,5 @@
+import GrowlKeys._
+
 name := "scala-sbt-kickstarter"
 
 version := "1.0.0"
@@ -24,3 +26,6 @@ org.scalastyle.sbt.ScalastylePlugin.Settings
 
 // Jetty settings
 port in container.Configuration := 8081
+
+// Growl notification settings
+defaultImagePath in Growl := file("./project/growl/images/")
